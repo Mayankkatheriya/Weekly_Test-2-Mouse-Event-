@@ -4,9 +4,9 @@
 
 # Table of content
 1. [UI](#UI)
-2. [HTML Code Explaination]([#HTML](https://github.com/Mayankkatheriya/Weekly_Test-2-Mouse-Event-/edit/main/README.md#html))
-3. CSS Code Explaination
-4. JS Code Explaination
+2. [HTML Code Explaination](#HTML)
+3. [CSS Code Explaination](#CSS)
+4. [JS Code Explaination](#JS)
 
 # UI:
 ![image](https://github.com/Mayankkatheriya/Weekly_Test-2-Mouse-Event-/assets/128832286/4710c4fe-f099-4ff5-96f1-c92ae7674eeb)
@@ -47,3 +47,20 @@ This CSS code sets styles for different elements in the HTML document:
   
 Overall, this CSS creates a centered layout with specific styling for various elements, particularly for displaying mouse position information.
 
+# JS:
+![image](https://github.com/Mayankkatheriya/Weekly_Test-2-Mouse-Event-/assets/128832286/de6bd5d5-1a87-4592-a591-a6c29a6ff7df)
+
+## Explaination:
+
+Certainly, here's a shorter explanation of your JavaScript code:
+
+This JavaScript code does the following:
+
+* It selects an HTML element with the class "inner-container" and assigns it to the variable positionBox.
+* It adds an event listener to the window that listens for the "mousemove" event, which triggers when the mouse is moved.
+* When the "mousemove" event occurs, it updates the content of the positionBox element with the current mouse position information using template literals (${}) to insert the values dynamically:
+* It displays the horizontal (X) position of the mouse using event.clientX.
+* It displays the vertical (Y) position of the mouse using event.clientY.
+* The content is structured into two "mouse-event" divs, each containing the X and Y mouse positions along with corresponding headings.
+
+In summary, this JavaScript code listens for mouse movement on the window and updates the content of the "inner-container" element to display the current X and Y positions of the mouse cursor as it moves.
